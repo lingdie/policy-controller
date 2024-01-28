@@ -6,7 +6,7 @@ domain: sealos.io
 layout:
 - go.kubebuilder.io/v4
 projectName: palword-controller
-repo: github.com/labring/sealos/controller/palword
+repo: github.com/lingdie/policy-controller
 resources:
 - api:
     crdVersion: v1
@@ -15,6 +15,6 @@ resources:
   domain: sealos.io
   group: policy
   kind: MemoryLimit
-  path: github.com/labring/sealos/controller/palword/api/v1
+  path: github.com/lingdie/policy-controller/api/v1
   version: v1
 version: "3"
