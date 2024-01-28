@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- policy_v1_memorylimit.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples

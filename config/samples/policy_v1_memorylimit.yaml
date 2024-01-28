@@ -1,0 +1,11 @@
+apiVersion: policy.sealos.io/v1
+kind: MemoryLimit
+metadata:
+  name: memorylimit-sample
+spec:
+  limitPercentage: 80
+  requeueTime: 5s
+  namespaceSelector:
+    matchExpressions:
+    - key: test
+      operator: Exists
